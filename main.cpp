@@ -1,7 +1,17 @@
-#include<iostream>
+#include <iostream>
 
-int main() {
+int main()
+{
+    int a =8;
+    int b =3;
+    int c =a-b;
     
-    std::cout <<"hello, world"<<std::endl;
+    std::cout <<(a>b) << "/t";
+    std::cout <<(a<c) << "/t";
+    std::cout <<(a!=b) << "/t";
+    std::cout <<(a== b) << "/t";
+    std::cout <<(a>=b) << "/t";
+
+
     return 0;
 }
